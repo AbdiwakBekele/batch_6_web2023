@@ -1,0 +1,26 @@
+#first {
+    background-color: red;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#second {
+    background-color: red;
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#third {
+    background-color: red;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
