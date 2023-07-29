@@ -13,14 +13,25 @@
 
     <p id="test"></p>
 
-    <input type="password" id="pass">
-    <button id="btn" onclick="show()">show</button>
+    <input type="text" id="num">
+    <button id="btn" onclick="add()">Click</button>
 
     <script>
 
-        var sum = [];
-        document.getElementById("test").innerHTML = sum;
+        function add() {
+            var y = document.getElementById("num").value;
+            var x = y.split(",");
+            var len = x.length;
+            var sum = 0;
 
+            for (var i = 0; i < len; i++) {
+                sum = sum + Number(x[i]);
+            }
+
+            var avg = sum / len;
+            document.getElementById("test").innerHTML = avg;
+
+        }
     </script>
 
 </body>
